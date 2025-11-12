@@ -22,12 +22,37 @@ export function ProfileSection() {
         )}
       </div>
       <div className="md:col-span-2 space-y-4 text-center md:text-left">
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tighter text-primary">Jane Doe</h1>
-        <h2 className="text-2xl md:text-3xl font-semibold text-foreground">Full-Stack Developer</h2>
-        <p className="text-muted-foreground text-lg max-w-2xl mx-auto md:mx-0">
-          I'm a passionate developer with a knack for building beautiful and functional web applications. 
-          With a strong background in both front-end and back-end technologies, I love bringing ideas to life from concept to deployment.
-        </p>
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tighter text-primary">Aspiring Technologist & Innovator</h1>
+        <h2 className="text-2xl md:text-3xl font-semibold text-foreground">Web, AI & ML Enthusiast</h2>
+        <div className="text-muted-foreground text-lg max-w-2xl mx-auto md:mx-0 space-y-4">
+          <p>
+            I’m not just another BCA student with a “passion for tech.” I don’t chase certificates or copy-paste projects. I build systems from scratch, break what doesn’t work, automate the chaos, and then rebuild it stronger.
+          </p>
+          <p>
+            I’ve worked on real, functional projects, not just class submissions. From building UHI Care, an open healthcare platform with AI-powered automation, real-time doctor-patient video interaction, and structured data syncing — to crafting MediBot, a wellness assistant that delivers everything from Ayurvedic remedies to fitness routines, booking appointments, setting up reminders, and streamlining user health journeys.
+          </p>
+          <p>
+            I even threw myself into side gigs for fun — building a Rajasthan tourism site just to explore creative design and user flow, and later developing TechGear, a full-stack e-commerce platform with a secure admin portal, inventory and stock management, order control, and real-time client-side ordering.
+          </p>
+          <p>
+            React. Node.js. Supabase. Automation. n8n. APIs.
+          </p>
+          <p>
+            I don’t “explore” tools — I deploy them. I focus on building systems that work when I’m not watching. Because for me, this isn’t a portfolio. It’s a living ecosystem of shipped ideas.
+          </p>
+          <p>
+            Right now, I’m a novice in the internship world — but not in delivery. I’m actively looking to work with startups or product-focused teams where I can learn fast, solve problems, and contribute from Day 1. I bring energy, speed, accountability — and I build with intent.
+          </p>
+          <p>
+            If it’s simple, I scale it.
+          </p>
+          <p>
+           If it’s complex, I simplify it.
+          </p>
+          <p>
+            And if it looks impossible — I’m already in the code.
+          </p>
+        </div>
         <div className="flex gap-4 pt-4 justify-center md:justify-start">
           <Button asChild size="lg">
             <Link href="#contact">Contact Me</Link>
