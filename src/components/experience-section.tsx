@@ -2,22 +2,16 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    role: 'Senior Software Engineer',
-    company: 'Tech Innovations Inc.',
-    period: '2020 - Present',
-    description: 'Leading development of a new microservices-based platform. Mentoring junior engineers and improving code quality across the team. Implemented a new CI/CD pipeline, reducing deployment time by 50%.',
+    role: 'CORE MEMBER',
+    company: 'ED Mantics - The Entrepreneurship Development Cell',
+    period: '2024 - present',
+    description: 'Promoting entrepreneurial thinking through workshops, mentorship, and startup pitch events.\nSuccessfully part of the organizing team for two major events, including the entrepreneurial Event Avsar, managing outreach, logistics, and execution.',
   },
   {
-    role: 'Software Engineer',
-    company: 'CodeCrafters LLC',
-    period: '2018 - 2020',
-    description: 'Developed and maintained features for a large-scale e-commerce application. Worked with React, Node.js, and PostgreSQL. Contributed to a 20% improvement in page load times.',
-  },
-  {
-    role: 'Junior Web Developer',
-    company: 'Web Wizards',
-    period: '2016 - 2018',
-    description: 'Assisted in building responsive websites for various clients using HTML, CSS, and JavaScript. Gained experience with modern front-end frameworks and version control systems.',
+    role: 'CORE MEMBER',
+    company: 'Nexel - Incubation Cell',
+    period: '2025 - present',
+    description: 'Founding member involved in building the cell from scratch.\nLeading networking and investor outreach, creating connections with mentors and early-stage investors.\nWorking on event formats, operational structure, and partnerships to support student-led innovations.',
   },
 ];
 
@@ -36,7 +30,7 @@ export function ExperienceSection() {
             </h3>
             <span className="text-primary/90 text-sm font-medium">{exp.company}</span>
             <time className="block my-2 text-sm font-normal leading-none text-muted-foreground">{exp.period}</time>
-            <p className="mb-4 text-base font-normal text-muted-foreground">{exp.description}</p>
+            <p className="mb-4 text-base font-normal text-muted-foreground whitespace-pre-line">{exp.description}</p>
           </div>
         ))}
       </div>
