@@ -8,8 +8,8 @@ import { Icons } from './icons';
 const projects = [
   {
     id: 'project-1',
-    title: 'Raahi',
-    description: 'A tool to help travellers find the best and most optimized route for their trip.',
+    title: 'Maitri',
+    description: 'An AI assistant for psychological and physical well being of astronauts',
     liveUrl: 'https://www.youtube.com/watch?v=FhlXUCdcoJI',
     githubUrl: '#',
   },
