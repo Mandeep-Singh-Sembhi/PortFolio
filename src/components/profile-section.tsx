@@ -6,8 +6,8 @@ import { Button } from '@/components/ui/button';
 export function ProfileSection() {
   const profileImage = PlaceHolderImages.find(p => p.id === 'profile-picture');
   return (
-    <section id="profile" className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
-      <div className="md:col-span-1 flex justify-center">
+    <section id="profile" className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
+      <div className="md:col-span-1 flex justify-center animate-fade-in-up">
         {profileImage && (
           <Image
             src={profileImage.imageUrl}
@@ -20,7 +20,7 @@ export function ProfileSection() {
           />
         )}
       </div>
-      <div className="md:col-span-2 space-y-4 text-center md:text-left">
+      <div className="md:col-span-2 space-y-4 text-center md:text-left animate-fade-in-up animation-delay-200">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tighter text-primary">Aspiring Technologist & Innovator</h1>
         <h2 className="text-2xl md:text-3xl font-semibold text-foreground">Web, AI & ML Enthusiast</h2>
         <div className="text-muted-foreground text-lg max-w-2xl mx-auto md:mx-0 space-y-4">
