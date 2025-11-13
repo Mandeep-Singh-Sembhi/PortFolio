@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 
 export function ProfileSection() {
   const profileImage = PlaceHolderImages.find(p => p.id === 'profile-picture');
-
   return (
     <section id="profile" className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
       <div className="md:col-span-1 flex justify-center">
