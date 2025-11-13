@@ -10,7 +10,7 @@ const projects = [
     id: 'project-1',
     title: 'Raahi',
     description: 'A tool to help travellers find the best and most optimized route for their trip.',
-    liveUrl: '#',
+    liveUrl: 'https://www.youtube.com/watch?v=FhlXUCdcoJI',
     githubUrl: '#',
   },
   {
