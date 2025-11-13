@@ -2,8 +2,8 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    role: 'CORE MEMBER',
-    company: 'ED Mantics - The Entrepreneurship Development Cell',
+    role: 'Technical Head',
+    company: 'Quantaloop Society',
     period: '2024 - present',
     description: 'Promoting entrepreneurial thinking through workshops, mentorship, and startup pitch events.\nSuccessfully part of the organizing team for two major events, including the entrepreneurial Event Avsar, managing outreach, logistics, and execution.',
   },
