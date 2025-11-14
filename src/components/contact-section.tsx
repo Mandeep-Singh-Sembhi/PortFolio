@@ -24,7 +24,7 @@ export function ContactSection() {
           </Link>
         </Button>
         <Button asChild variant="outline" size="icon" className="hover:bg-accent hover:text-accent-foreground transition-colors">
-          <Link href="#" target="_blank">
+          <Link href="https://www.linkedin.com/in/mandeep-singh-11768821a/" target="_blank">
             <Icons.LinkedIn className="h-5 w-5" />
             <span className="sr-only">LinkedIn</span>
           </Link>
