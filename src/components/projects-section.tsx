@@ -20,13 +20,6 @@ const projects = [
     liveUrl: 'https://cool-yeot-e02993.netlify.app/dashboard',
     githubUrl: '#',
   },
-  {
-    id: 'project-3',
-    title: 'Analytics Dashboard',
-    description: 'A data visualization dashboard displaying key business metrics with interactive charts and graphs. Powered by React and D3.js.',
-    liveUrl: '#',
-    githubUrl: '#',
-  },
 ];
 
 export function ProjectsSection() {
