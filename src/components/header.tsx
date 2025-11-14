@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
 
 const navLinks = [
+  { href: "#education", label: "Education" },
   { href: "#experience", label: "Experience" },
   { href: "#achievements", label: "Achievements" },
   { href: "#skills", label: "Skills" },
