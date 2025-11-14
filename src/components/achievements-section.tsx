@@ -13,8 +13,13 @@ const achievements = [
 
 export function AchievementsSection() {
   return (
-    <section id="achievements" className="space-y-8">
-      <h2 className="text-3xl font-bold tracking-tight text-center">Competitions/Achievements</h2>
+    <section id="achievements" className="space-y-12">
+      <div className="text-center">
+        <h2 className="text-3xl font-bold tracking-tight inline-block relative">
+          Competitions/Achievements
+          <div className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-2/3 h-1 bg-primary/50 rounded-full" />
+        </h2>
+      </div>
       <div className="relative border-l-2 border-primary/20 max-w-3xl mx-auto">
         {achievements.map((achievement, index) => (
           <div key={index} className="mb-10 ml-10">

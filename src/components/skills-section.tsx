@@ -10,8 +10,13 @@ const skillsData = {
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="space-y-8">
-      <h2 className="text-3xl font-bold tracking-tight text-center">My Skills</h2>
+    <section id="skills" className="space-y-12">
+      <div className="text-center">
+        <h2 className="text-3xl font-bold tracking-tight inline-block relative">
+          My Skills
+          <div className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-2/3 h-1 bg-primary/50 rounded-full" />
+        </h2>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {Object.entries(skillsData).map(([category, skills]) => (
           <Card key={category} className="bg-card/50 hover:border-primary/50 transition-colors">

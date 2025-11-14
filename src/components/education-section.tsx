@@ -17,8 +17,13 @@ const education = [
 
 export function EducationSection() {
   return (
-    <section id="education" className="space-y-8">
-      <h2 className="text-3xl font-bold tracking-tight text-center">Education</h2>
+    <section id="education" className="space-y-12">
+      <div className="text-center">
+        <h2 className="text-3xl font-bold tracking-tight inline-block relative">
+          Education
+          <div className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-2/3 h-1 bg-primary/50 rounded-full" />
+        </h2>
+      </div>
       <div className="relative border-l-2 border-primary/20 max-w-3xl mx-auto">
         {education.map((edu, index) => (
           <div key={index} className="mb-10 ml-10">

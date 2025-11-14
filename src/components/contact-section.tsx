@@ -4,8 +4,13 @@ import { Icons } from './icons';
 
 export function ContactSection() {
   return (
-    <section id="contact" className="text-center space-y-6 py-12 bg-card/50 rounded-lg">
-      <h2 className="text-3xl font-bold tracking-tight">Get In Touch</h2>
+    <section id="contact" className="text-center space-y-8 py-12 bg-card/50 rounded-lg">
+      <div className="text-center">
+        <h2 className="text-3xl font-bold tracking-tight inline-block relative">
+          Get In Touch
+          <div className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-2/3 h-1 bg-primary/50 rounded-full" />
+        </h2>
+      </div>
       <p className="max-w-2xl mx-auto text-muted-foreground">
         I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions. 
         Feel free to reach out to me.

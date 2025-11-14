@@ -31,8 +31,13 @@ const projects = [
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="space-y-8">
-      <h2 className="text-3xl font-bold tracking-tight text-center">My Projects</h2>
+    <section id="projects" className="space-y-12">
+      <div className="text-center">
+        <h2 className="text-3xl font-bold tracking-tight inline-block relative">
+          My Projects
+          <div className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-2/3 h-1 bg-primary/50 rounded-full" />
+        </h2>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map(project => {
           const projectImage = PlaceHolderImages.find(p => p.id === project.id);
