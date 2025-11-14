@@ -18,7 +18,7 @@ export function ContactSection() {
           </Link>
         </Button>
         <Button asChild variant="outline" size="icon" className="hover:bg-accent hover:text-accent-foreground transition-colors">
-          <Link href="#" target="_blank">
+          <Link href="https://github.com/Mandeep-Singh-Sembhi" target="_blank">
             <Icons.GitHub className="h-5 w-5" />
             <span className="sr-only">GitHub</span>
           </Link>
