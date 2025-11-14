@@ -18,7 +18,7 @@ export function Header() {
         <div className="flex-1">
           <Link href="/" className="flex items-center space-x-2">
             <Icons.Logo className="h-6 w-6 text-primary" />
-            <span className="font-bold">mann</span>
+            <span className="font-bold">MANDEEP SINGH</span>
           </Link>
         </div>
         
@@ -48,7 +48,7 @@ export function Header() {
               <div className="flex flex-col gap-6 pt-12">
                 <Link href="/" className="mr-6 flex items-center space-x-2">
                   <Icons.Logo className="h-6 w-6 text-primary" />
-                  <span className="font-bold">mann</span>
+                  <span className="font-bold">MANDEEP SINGH</span>
                 </Link>
                 <nav className="flex flex-col gap-4 text-lg">
                   {navLinks.map(link => (
