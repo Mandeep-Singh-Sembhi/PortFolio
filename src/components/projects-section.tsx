@@ -17,7 +17,7 @@ const projects = [
     id: 'project-2',
     title: 'Task Management App',
     description: 'A responsive mobile app for organizing tasks and projects. Features include drag-and-drop functionality and real-time collaboration.',
-    liveUrl: '#',
+    liveUrl: 'https://cool-yeot-e02993.netlify.app/dashboard',
     githubUrl: '#',
   },
   {
