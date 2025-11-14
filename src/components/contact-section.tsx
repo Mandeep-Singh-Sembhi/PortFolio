@@ -30,7 +30,7 @@ export function ContactSection() {
           </Link>
         </Button>
         <Button asChild variant="outline" size="icon" className="hover:bg-accent hover:text-accent-foreground transition-colors">
-          <Link href="#" target="_blank">
+          <Link href="https://x.com/MandeepSembhi12" target="_blank">
             <Icons.Twitter className="h-5 w-5" />
             <span className="sr-only">Twitter</span>
           </Link>
