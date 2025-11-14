@@ -15,13 +15,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
-          <Icons.Logo className="h-6 w-6 text-primary" />
-          <span className="font-bold">mann</span>
-        </Link>
+        <div className="flex-1">
+          <Link href="/" className="flex items-center space-x-2">
+            <Icons.Logo className="h-6 w-6 text-primary" />
+            <span className="font-bold">mann</span>
+          </Link>
+        </div>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-4 text-sm lg:gap-6 ml-auto">
+        <nav className="hidden md:flex flex-1 justify-center items-center gap-4 text-sm lg:gap-6">
           {navLinks.map(link => (
             <Link
               key={link.href}
@@ -34,7 +36,7 @@ export function Header() {
         </nav>
 
         {/* Mobile Navigation */}
-        <div className="md:hidden ml-auto">
+        <div className="flex-1 md:hidden flex justify-end">
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon">
