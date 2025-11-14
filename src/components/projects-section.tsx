@@ -31,7 +31,7 @@ export function ProjectsSection() {
           <div className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-2/3 h-1 bg-primary/50 rounded-full" />
         </h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map(project => {
           const projectImage = PlaceHolderImages.find(p => p.id === project.id);
           return (
