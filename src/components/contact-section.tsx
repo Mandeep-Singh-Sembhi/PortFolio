@@ -12,7 +12,7 @@ export function ContactSection() {
       </p>
       <div className="flex justify-center gap-4">
         <Button asChild variant="outline" size="icon" className="hover:bg-accent hover:text-accent-foreground transition-colors">
-          <Link href="mailto:jane.doe@example.com" target="_blank">
+          <Link href="mailto:mandeep.sembhi69@gmail.com" target="_blank">
             <Icons.Mail className="h-5 w-5" />
             <span className="sr-only">Email</span>
           </Link>
