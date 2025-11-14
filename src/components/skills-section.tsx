@@ -5,7 +5,7 @@ const skillsData = {
   'Front-End': ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'HTML5', 'CSS3'],
   'Back-End': ['Node.js', 'Express', 'Python', 'Django', 'PostgreSQL', 'MongoDB'],
   'Tools & Platforms': ['Git', 'Docker', 'AWS', 'Firebase', 'Vercel', 'Stripe API'],
-  'Design': ['Figma', 'Adobe XD', 'User Interface Design', 'UX Research']
+  'Design': ['Figma', 'Adobe XD', 'User Interface Design', 'UX Research', 'Canva']
 };
 
 export function SkillsSection() {
