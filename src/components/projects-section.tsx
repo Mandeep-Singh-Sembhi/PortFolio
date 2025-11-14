@@ -15,8 +15,8 @@ const projects = [
   },
   {
     id: 'project-2',
-    title: 'Task Management App',
-    description: 'A responsive mobile app for organizing tasks and projects. Features include drag-and-drop functionality and real-time collaboration.',
+    title: 'Raahi',
+    description: 'Helps the travellers to find the best and most convenient route for their journey.',
     liveUrl: 'https://cool-yeot-e02993.netlify.app/dashboard',
     githubUrl: '#',
   },
