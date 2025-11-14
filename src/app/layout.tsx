@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'MANDEEP SINGH',
+  title: 'Mandeep Singh',
   description: 'A modern, dark-themed personal portfolio.',
 };
 
